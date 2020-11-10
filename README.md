@@ -16,7 +16,7 @@ Temos dois códigos nesse projeto, a versão sequencial e a versão paralela com
 
 ### Código sequencial
 
-Ir ao diretório do projeto pelo terminal e executar o seguinte comando para criar o programa:
+Ir ao diretório do código sequencial (./sequencial) pelo terminal e executar o seguinte comando para criar o programa:
 
 ```
 gcc contadorDePalavras.c -o seq
@@ -30,7 +30,7 @@ Após isso, executar o seguinte comando para rodar o arquivo com o programa cria
 
 ### Código paralelo
 
-Ir ao diretório do projeto pelo terminal e executar o seguinte comando para criar o programa:
+Ir ao diretório do código paralelo (./paralelo) pelo terminal e executar o seguinte comando para criar o programa:
 
 ```
 gcc contadorDePalavras.c -fopenmp -o par
@@ -41,6 +41,3 @@ Após isso, executar o seguinte comando para rodar o arquivo com o programa cria
 ```
 ./par
 ```
-
-Ir ao diretório do projeto pelo terminal e executar o seguinte comando para criar o programa:
-
