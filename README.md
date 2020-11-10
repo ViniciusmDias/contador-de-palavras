@@ -1,6 +1,6 @@
 # Trabalho A.7 Programação Paralela
 
-Alunos: Vinicius Dias (15103263) e Arthur Mota ()
+Alunos: Vinicius Dias e Arthur Mota
 
 ## Introdução
 
@@ -16,12 +16,31 @@ Temos dois códigos nesse projeto, a versão sequencial e a versão paralela com
 
 ### Código sequencial
 
+Ir ao diretório do projeto pelo terminal e executar o seguinte comando para criar o programa:
+
+```
+gcc contadorDePalavras.c -o seq
+```
+
+Após isso, executar o seguinte comando para rodar o arquivo com o programa criado: 
+
+```
+./seq
+```
+
 ### Código paralelo
 
 Ir ao diretório do projeto pelo terminal e executar o seguinte comando para criar o programa:
 
-## Detalhes sobre a implementação das soluções e dos exemplos testados e avaliação do desempenho mostrando o speed-up e a eficiência
+```
+gcc contadorDePalavras.c -fopenmp -o par
+```
 
-## Conclusão
+Após isso, executar o seguinte comando para rodar o arquivo com o programa criado: 
 
-## Referências
+```
+./par
+```
+
+Ir ao diretório do projeto pelo terminal e executar o seguinte comando para criar o programa:
+
